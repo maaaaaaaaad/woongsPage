@@ -1,0 +1,45 @@
+@keyframes opacityView {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.home__section {
+  animation: opacityView 0.8s ease-in-out;
+}
+
+.home__title {
+  margin-top: 1rem;
+}
+
+.home__greeting__section {
+  margin: 1rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home__greeting {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.home__greeting__userImg {
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.home__greeting__message {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}

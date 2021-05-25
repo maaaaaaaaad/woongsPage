@@ -1,0 +1,8 @@
+.footer__section {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  margin-right: 5px;
+}

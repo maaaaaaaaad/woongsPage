@@ -1,0 +1,41 @@
+@keyframes recordView {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.record__section {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  height: 80%;
+  width: 80%;
+  animation: recordView 1s ease-in;
+}
+
+.record__header,
+.record__nav {
+  background-color: rgba(150, 220, 248, 0.3);
+}
+
+.record__header {
+  border-radius: 10px 10px 0 0;
+}
+
+.record__nav {
+  border-radius: 0 0 10px 10px;
+}
+
+.record__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}

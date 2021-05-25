@@ -1,0 +1,80 @@
+.stack__img {
+  margin-top: 10px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+@keyframes ts {
+  from {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 0.8;
+  }
+}
+
+.ts {
+  animation: ts 0.5s ease-in-out;
+}
+
+@keyframes react {
+  from {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 0.8;
+  }
+}
+
+.react {
+  animation: ts 1s ease-in-out;
+}
+
+@keyframes js {
+  from {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 0.8;
+  }
+}
+
+.js {
+  animation: js 1.5s ease-in-out;
+}
+
+@keyframes css {
+  from {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 0.8;
+  }
+}
+
+.css {
+  animation: css 2s ease-in-out;
+}
+
+@keyframes html {
+  from {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 0.8;
+  }
+}
+
+.html {
+  animation: html 2.5s ease-in-out;
+}

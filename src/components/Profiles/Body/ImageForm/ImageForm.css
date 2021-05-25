@@ -1,0 +1,28 @@
+.profile__body__imgForm__imgBox {
+  position: relative;
+}
+
+.profile__body__imgForm__default {
+  opacity: 0.8;
+  border-radius: 50%;
+}
+
+.profile__body__imgForm__form {
+  display: none;
+}
+
+.profile__body__imgForm__icon {
+  border: none;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.cancel {
+  right: -10px;
+}

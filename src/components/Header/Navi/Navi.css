@@ -1,0 +1,17 @@
+@media screen and (max-width: 760px) {
+  .navi__ul {
+    margin-top: 1rem;
+  }
+}
+
+.navi__ul {
+  display: flex;
+}
+
+.navi__li {
+  margin-right: 2rem;
+}
+
+.navi__link {
+  color: white;
+}

@@ -1,0 +1,5 @@
+.app__section {
+  height: 100vh;
+  background: url(/src/images/profileBG.jpeg);
+  background-size: cover;
+}

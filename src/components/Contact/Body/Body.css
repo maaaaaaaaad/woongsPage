@@ -1,0 +1,19 @@
+.contact__body__section {
+  display: block;
+}
+
+.contact__body__ul {
+  width: 100%;
+  height: 100%;
+  margin-left: 1rem;
+}
+
+.contact__body__li {
+  margin: 10px;
+  color: white;
+}
+
+.contact__body__icon {
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
