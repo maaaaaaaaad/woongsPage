@@ -1,7 +1,5 @@
 .app__section {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
   background: url(/src/images/profileBG.jpeg);
   background-size: cover;
-  box-sizing: border-box;
 }
