@@ -67,6 +67,7 @@ const TextForm: React.FC<Props> = ({ userDisplayName, store, userUid }) => {
         { id: userUid, displayName: newDisplayName, message: newStateMessage },
         userUid!
       );
+      alert(`Changed Name and Message!`);
     }
   };
 
@@ -89,6 +90,7 @@ const TextForm: React.FC<Props> = ({ userDisplayName, store, userUid }) => {
           name="message"
           autoComplete="off"
           placeholder={getStateMessage ? getStateMessage : "State Message"}
+          required
         />
         <input
           ref={submitRef}

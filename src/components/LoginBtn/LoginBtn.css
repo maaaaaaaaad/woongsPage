@@ -1,42 +1,7 @@
-@media screen and (max-width: 760px) {
-  .home__authBtn__box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .home__authBtn {
-    margin-top: 0.5rem;
-  }
-}
-.home__authBtn__box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem;
+.google {
+  margin-right: 3px;
 }
 
-.home__authBtn {
-  background: none;
-  border: 2px solid #8f7f64;
-  outline: none;
-  padding: 10px;
-  width: 228px;
-  border-radius: 10px;
-  cursor: pointer;
-  color: white;
-  font-weight: bold;
-  margin-top: 1rem;
-}
-
-.google,
-.github,
-.kakao {
-  margin-left: 10px;
-  animation: opacityView 0.8s ease-in-out;
-}
-
-.home__authBtn__title {
-  margin-left: 5px;
+.github {
+  margin-left: 3px;
 }

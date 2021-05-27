@@ -16,7 +16,6 @@ const Navi: React.FC = (props) => {
             <FontAwesomeIcon
               className="record__navi__icon"
               icon={faHome}
-              size={"2x"}
             ></FontAwesomeIcon>
           </Link>
         </li>

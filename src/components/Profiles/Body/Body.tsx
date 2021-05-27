@@ -18,9 +18,7 @@ const Body: React.FC<Props> = ({ userDisplayName, userUid, store }) => {
         userDisplayName={userDisplayName}
         store={store}
         userUid={userUid}
-      >
-        {" "}
-      </TextForm>
+      ></TextForm>
     </section>
   );
 };

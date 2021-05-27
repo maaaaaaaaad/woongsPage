@@ -8,7 +8,7 @@ const seoul = { lat: 37.564214, lng: 127.001699 };
 const Map: React.FC = (props) => {
   const { ref, map, google } = useGoogleMaps(
     process.env.REACT_APP_MAPS_API_KEY! as string,
-    { center: seoul, zoom: 8 }
+    { center: seoul, zoom: 7 }
   );
 
   if (map) {
@@ -19,7 +19,7 @@ const Map: React.FC = (props) => {
       <div
         className="map__viewer"
         ref={ref}
-        style={{ width: 400, height: 300 }}
+        style={{ width: 300, height: 400 }}
       />
       <div className="map__body">
         <Body></Body>

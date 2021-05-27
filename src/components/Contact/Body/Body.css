@@ -1,19 +1,14 @@
-.contact__body__section {
-  display: block;
-}
-
-.contact__body__ul {
-  width: 100%;
-  height: 100%;
-  margin-left: 1rem;
-}
-
 .contact__body__li {
-  margin: 10px;
-  color: white;
+  margin-bottom: 5px;
 }
 
-.contact__body__icon {
-  margin-right: 5px;
-  font-size: 1.5rem;
+.contact__body__text,
+.contact__body__href {
+  margin-left: 5px;
+  font-size: 0.9rem;
+}
+
+.contact__body__href {
+  color: rgb(247, 157, 141);
+  font-weight: bold;
 }

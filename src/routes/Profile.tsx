@@ -58,7 +58,7 @@ const Profile: React.FC<Props> = ({ authService, store }) => {
           </footer>
         </section>
       ) : (
-        <div>Please Login</div>
+        <div className="profile__section notLogin">Please Login</div>
       )}
     </>
   );

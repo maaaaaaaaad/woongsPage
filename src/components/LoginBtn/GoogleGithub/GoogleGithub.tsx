@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useHistory } from "react-router";
 import AuthServiceImpl from "../../service/firebase/authServcie";
+import "./GoogleGithub.css";
 
 interface Props {
   authService: AuthServiceImpl;

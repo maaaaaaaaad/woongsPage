@@ -1,41 +1,29 @@
-@keyframes recordView {
-  from {
-    transform: scale(0);
-    opacity: 0;
-  }
-
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
 .record__section {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  height: 80%;
-  width: 80%;
-  animation: recordView 1s ease-in;
-}
-
-.record__header,
-.record__nav {
-  background-color: rgba(150, 220, 248, 0.3);
+  justify-content: center;
+  align-items: center;
 }
 
 .record__header {
-  border-radius: 10px 10px 0 0;
-}
-
-.record__nav {
-  border-radius: 0 0 10px 10px;
+  width: 100%;
+  text-align: center;
+  margin: 10px;
 }
 
 .record__body {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px;
   flex: 1;
+}
+
+.record__nav {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
 }

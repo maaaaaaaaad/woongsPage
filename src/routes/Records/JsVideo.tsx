@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import "./css/typescript.css";
 import yotube01 from "./recordImg/youtube01.png";
@@ -33,8 +32,8 @@ const JsVideo: React.FC = (props) => {
             className="record__type__imgViewer__img"
             src={imgSrc}
             alt={imgSrc}
-            width={400}
-            height={450}
+            width={200}
+            height={250}
           />
         </div>
       ) : (
@@ -51,39 +50,17 @@ const JsVideo: React.FC = (props) => {
               This is my frist youtube API project with using React
             </li>
             <li className="record__type__li">
-              App is always load videos to 25 count what a popular to world
+              Always load videos to 25 count what a popular to world
             </li>
             <li className="record__type__li">
-              I can search video and watch it through the "Search" form
-            </li>
-            <li className="record__type__li">
-              "Hey, OH. How do you mangaed API code?" I was on the point of
-              telling you about it.
-            </li>
-            <li className="record__type__li">
-              My API code managed to 'POST MAN' and i can call them using
-              'Axios' or 'fetch'
-            </li>
-            <li className="record__type__li">
-              It was a great experience about the APIs
+              Search video and watch it through the "Search" form
             </li>
           </ul>
-          <a
-            href="https://github.com/dongwoongoh/Network-service"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon
-              className="record__type__icon git"
-              icon={["fab", "github"]}
-              size={"2x"}
-            ></FontAwesomeIcon>
-          </a>
         </div>
       )}
 
       <div className="record__type__images">
-        <ul className="record__type__ul">
+        <ul className="record__type__ul imgBox">
           <li className="record__type__li">
             <img
               onMouseOver={onImgOverHandler}
@@ -91,8 +68,8 @@ const JsVideo: React.FC = (props) => {
               className="record__type__li__img"
               src={yotube01}
               alt="sns01"
-              width={200}
-              height={150}
+              width={160}
+              height={100}
             />
             <img
               onMouseOver={onImgOverHandler}
@@ -100,8 +77,8 @@ const JsVideo: React.FC = (props) => {
               className="record__type__li__img"
               src={youtubeMain}
               alt="snsPro"
-              width={200}
-              height={150}
+              width={160}
+              height={100}
             />
           </li>
           <li className="record__type__li">
@@ -111,8 +88,8 @@ const JsVideo: React.FC = (props) => {
               className="record__type__li__img"
               src={yotube02}
               alt="sns02"
-              width={200}
-              height={150}
+              width={160}
+              height={100}
             />
             <img
               onMouseOver={onImgOverHandler}
@@ -120,8 +97,8 @@ const JsVideo: React.FC = (props) => {
               className="record__type__li__img"
               src={youtubeApp}
               alt="snsImg"
-              width={200}
-              height={150}
+              width={160}
+              height={100}
             />
           </li>
           <li className="record__type__li">
@@ -131,8 +108,8 @@ const JsVideo: React.FC = (props) => {
               className="record__type__li__img"
               src={yotube03}
               alt="sns03"
-              width={200}
-              height={150}
+              width={160}
+              height={100}
             />
             <img
               onMouseOver={onImgOverHandler}
@@ -140,8 +117,8 @@ const JsVideo: React.FC = (props) => {
               className="record__type__li__img"
               src={youtubeSearch}
               alt="snsProfile"
-              width={200}
-              height={150}
+              width={160}
+              height={100}
             />
           </li>
         </ul>

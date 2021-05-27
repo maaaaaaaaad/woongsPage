@@ -33,7 +33,7 @@ const Navi: React.FC = (props) => {
         </li>
         <li className="navi__li">
           <Link className="navi__link" to="/profile">
-            Edit Profile
+            Profile
           </Link>
         </li>
       </ul>

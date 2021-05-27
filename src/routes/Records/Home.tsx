@@ -1,34 +1,27 @@
 import React from "react";
-import "./css/home.css";
-import homeImg from "../../images/record-home.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import "./css/record-home.css";
 
 const Home: React.FC = (props) => {
   return (
     <section className="record__home__section">
-      <div className="record__home__description">
-        <div className="record__home__title">Information</div>
-        <div className="record__home__content">
-          Basically, Project include HTML5, CSS3 <br />
-          Here navigation has 4 project
-          <br />
+      <ul className="record__home__ul">
+        <li className="record__home__ul__li title">Information</li>
+        <li className="record__home__ul__li">
+          Basically, Project include HTML5, CSS3
+        </li>
+        <li className="record__home__ul__li">
           You can see more project where my github
-          <br />
+        </li>
+        <li className="record__home__ul__li">
           But there is exist what no CSS project
-          <br />
+        </li>
+        <li className="record__home__ul__li">
           Almost of project used Firebase as back-end system
-          <br />
-          <footer className="record__home__content__footer">
-            <FontAwesomeIcon
-              className="record__home__content__icon star"
-              icon={faStar}
-            ></FontAwesomeIcon>
-            This page update is continue as you’d expect
-          </footer>
-        </div>
-      </div>
-      <img className="record__home__img" src={homeImg} alt="homeImg" />
+        </li>
+        <li className="record__home__ul__li">
+          This page update is continue as you’d expect
+        </li>
+      </ul>
     </section>
   );
 };

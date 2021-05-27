@@ -4,7 +4,7 @@ import defaultImg from "./defaultImg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCheckSquare,
-  faPen,
+  faPenSquare,
   faWindowClose,
 } from "@fortawesome/free-solid-svg-icons";
 import FirebaseStoreImpl from "../../../service/firebase/store";
@@ -133,7 +133,7 @@ const ImageForm: React.FC<Props> = ({ userUid, store }) => {
               <FontAwesomeIcon
                 onClick={onImgClick}
                 className="profile__body__imgForm__icon pen"
-                icon={faPen}
+                icon={faPenSquare}
               ></FontAwesomeIcon>
             ) : (
               <>

@@ -1,22 +1,15 @@
-@keyframes profileSection {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
 .profile__section {
-  border: 1px solid white;
-  background-color: rgba(255, 255, 255, 0.15);
-  border-radius: 1rem;
-  width: 60vw;
-  height: 80vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  animation: profileSection 0.8s ease-in-out;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__header {
+  width: 100%;
+  text-align: center;
 }
 
 .profile__body {
@@ -25,18 +18,11 @@
   align-items: center;
   flex: 1;
   width: 100%;
-}
-
-.profile__header,
-.profile__footer {
-  background-color: rgb(54, 61, 156, 0.5);
-  padding: 0.5rem;
-}
-
-.profile__header {
-  border-radius: 1rem 1rem 0 0;
+  height: 100%;
 }
 
 .profile__footer {
-  border-radius: 0 0 1rem 1rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
 }

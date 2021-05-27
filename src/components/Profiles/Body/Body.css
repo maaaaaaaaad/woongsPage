@@ -2,15 +2,7 @@
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
-
-@media screen and (max-width: 760px) {
-  .profile__body__section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 }

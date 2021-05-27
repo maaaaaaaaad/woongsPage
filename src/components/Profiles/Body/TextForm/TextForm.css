@@ -1,29 +1,33 @@
-.profile__textForm__form {
-  width: 250px;
+.profile__textForm__section {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
 }
 
-.profile__textForm__displayName {
-  margin-bottom: 1rem;
+.profile__textForm__form {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile__textForm__displayName,
 .profile__textForm__message {
-  color: white;
-  font-size: 1.1rem;
-  background: none;
-  border: none;
-  outline: none;
-  font-weight: bold;
-  text-align: center;
   width: 100%;
-  height: 30px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.profile__textForm__displayName::placeholder,
-.profile__textForm__message::placeholder {
-  color: rgba(255, 255, 255, 0.7);
-  font-weight: 400;
+  height: 100%;
+  text-align: center;
+  padding: 8px;
+  margin-bottom: 8px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 0px rgb(173, 172, 172);
 }
 
 .profile__submit {
@@ -31,12 +35,6 @@
 }
 
 .save {
-  margin-top: 2rem;
-  font-size: 1.5rem;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.save:hover {
-  color: rgb(248, 234, 152);
+  margin-top: 1rem;
+  font-size: 1.4rem;
 }

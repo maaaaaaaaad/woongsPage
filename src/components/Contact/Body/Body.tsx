@@ -22,7 +22,7 @@ const Body: React.FC = (props) => {
             icon={["fab", "github"]}
           ></FontAwesomeIcon>
           <a
-            className="contact__body__li"
+            className="contact__body__href"
             href="https://github.com/dongwoongoh"
             rel="noreferrer"
             target="_blank"

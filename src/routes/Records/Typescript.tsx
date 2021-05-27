@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import "./css/typescript.css";
 import sns01 from "./recordImg/sns01.png";
@@ -33,8 +32,8 @@ const Typescript: React.FC = (props) => {
             className="record__type__imgViewer__img"
             src={imgSrc}
             alt={imgSrc}
-            width={400}
-            height={450}
+            width={200}
+            height={250}
           />
         </div>
       ) : (
@@ -59,22 +58,11 @@ const Typescript: React.FC = (props) => {
             </li>
             <li className="record__type__li"> Upload user profile</li>
           </ul>
-          <a
-            href="https://github.com/dongwoongoh/Simple-Mini-SNS"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon
-              className="record__type__icon git"
-              icon={["fab", "github"]}
-              size={"2x"}
-            ></FontAwesomeIcon>
-          </a>
         </div>
       )}
 
       <div className="record__type__images">
-        <ul className="record__type__ul">
+        <ul className="record__type__ul imgBox">
           <li className="record__type__li">
             <img
               onMouseOver={onImgOverHandler}
@@ -82,8 +70,8 @@ const Typescript: React.FC = (props) => {
               className="record__type__li__img"
               src={sns01}
               alt="sns01"
-              width={200}
-              height={150}
+              width={160}
+              height={100}
             />
             <img
               onMouseOver={onImgOverHandler}
@@ -91,8 +79,8 @@ const Typescript: React.FC = (props) => {
               className="record__type__li__img"
               src={snsPro}
               alt="snsPro"
-              width={200}
-              height={150}
+              width={160}
+              height={100}
             />
           </li>
           <li className="record__type__li">
@@ -102,8 +90,8 @@ const Typescript: React.FC = (props) => {
               className="record__type__li__img"
               src={sns02}
               alt="sns02"
-              width={200}
-              height={150}
+              width={160}
+              height={100}
             />
             <img
               onMouseOver={onImgOverHandler}
@@ -111,8 +99,8 @@ const Typescript: React.FC = (props) => {
               className="record__type__li__img"
               src={snsImg}
               alt="snsImg"
-              width={200}
-              height={150}
+              width={160}
+              height={100}
             />
           </li>
           <li className="record__type__li">
@@ -122,8 +110,8 @@ const Typescript: React.FC = (props) => {
               className="record__type__li__img"
               src={sns03}
               alt="sns03"
-              width={200}
-              height={150}
+              width={160}
+              height={100}
             />
             <img
               onMouseOver={onImgOverHandler}
@@ -131,8 +119,8 @@ const Typescript: React.FC = (props) => {
               className="record__type__li__img"
               src={snsProfile}
               alt="snsProfile"
-              width={200}
-              height={150}
+              width={160}
+              height={100}
             />
           </li>
         </ul>

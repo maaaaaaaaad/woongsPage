@@ -1,69 +1,27 @@
 .record__type__section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes recordTypeView {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+.record__type__title,
+.record__type__impl,
+.record__type__ul {
+  text-align: center;
 }
 
-.record__type__description,
-.record__type__images {
-  flex-basis: 50%;
-  animation: recordTypeView 2s ease-in-out;
-}
-
-.record__type__title {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.record__type__li {
-  margin-bottom: 5px;
-}
-
-.record__type__impl {
-  font-size: 1.5rem;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
+.imgBox {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .git {
-  color: white;
-  margin-top: 1rem;
-  cursor: pointer;
-}
-
-.record__type__li__img {
-  border-radius: 10px;
-  margin-right: 10px;
-  cursor: w-resize;
-}
-
-.record__type__imgViewer {
-  flex-basis: 50%;
-}
-
-@keyframes selectedImgView {
-  from {
-    transform: scale(0);
-  }
-
-  to {
-    transform: scale(1);
-  }
-}
-
-.record__type__imgViewer__img {
-  border-radius: 20px;
-  animation: selectedImgView 0.5s ease-in-out;
+  color: rgb(247, 147, 129);
+  font-size: 1.5rem;
 }
