@@ -1,7 +1,7 @@
 # Welcome to the WOONG's Page
 Go to Woongs page 👉🏻 https://woongspage.netlify.app/
 
-# Auth
+# Data
 ## attention to the getProvider function in 19 lane
 ```javascript
 import { firebaseAuth, githubProvider, googleProvier } from "./data";
