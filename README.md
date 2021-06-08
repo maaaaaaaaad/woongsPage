@@ -1,7 +1,7 @@
 # Welcome to the WOONG's Page
 Go to Woongs page 👉🏻 https://woongspage.netlify.app/
 
-# Data
+# Auth
 ## attention to the getProvider function in 19 lane
 ```javascript
 import { firebaseAuth, githubProvider, googleProvier } from "./data";
@@ -43,7 +43,7 @@ function getProvider(providerValue: string) {
 export default AuthServiceImpl;
 ```
 
-# Auth
+# Data
 ## These interface have sent the class into a stabilizaiton.
 ```javascript
 import { fireStore } from "./data";
